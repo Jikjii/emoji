@@ -120,6 +120,9 @@ export const postsRouter = createTRPCRouter({
         },
       });
 
+      //TODO - add recaching validation after a post is sent 
+      //TODO - add validation fetching
+      //TODO - add a extra caching layer
       return post;
     }),
 });
