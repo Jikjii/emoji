@@ -53,6 +53,8 @@ const addUserDataToPosts = async (posts: Post[]) => {
   });
 };
 
+// the uniiverse gneerall hae a comptation backgfround arond the last fori of what we are doing but id doubt that we wull genully use them 
+
 // Create a new ratelimiter, that allows 3 requests per 1 minute
 const ratelimit = new Ratelimit({
   redis: Redis.fromEnv(),
